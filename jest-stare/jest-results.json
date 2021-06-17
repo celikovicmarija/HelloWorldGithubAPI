@@ -1,0 +1,1877 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 14,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 14,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1623948677300,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 14,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1623948684673,
+        "runtime": 7259,
+        "slow": true,
+        "start": 1623948677414
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\m.celikovic\\Documents\\REST API Testing\\HelloWorldGithubAPI\\__test__\\repositories.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Get repository(repositories) of a user"
+          ],
+          "duration": 775,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Get repository(repositories) of a user should return all the repositories of authorized user data",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return all the repositories of authorized user data"
+        },
+        {
+          "ancestorTitles": [
+            "Get repository(repositories) of a user"
+          ],
+          "duration": 289,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Get repository(repositories) of a user should return error when trying to get all repositories from the wrong user",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return error when trying to get all repositories from the wrong user"
+        },
+        {
+          "ancestorTitles": [
+            "Get repository(repositories) of a user"
+          ],
+          "duration": 265,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Get repository(repositories) of a user should return error when trying to get all repositories by unauthenticated user",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return error when trying to get all repositories by unauthenticated user"
+        },
+        {
+          "ancestorTitles": [
+            "Get repository(repositories) of a user"
+          ],
+          "duration": 334,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Get repository(repositories) of a user should return requested repository",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return requested repository"
+        },
+        {
+          "ancestorTitles": [
+            "Create new repository"
+          ],
+          "duration": 1097,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Create new repository Authenticated user creates a private repository",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user creates a private repository"
+        },
+        {
+          "ancestorTitles": [
+            "Create new repository"
+          ],
+          "duration": 332,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Create new repository Authenticated user cannot create repository with empty body",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user cannot create repository with empty body"
+        },
+        {
+          "ancestorTitles": [
+            "Create new repository"
+          ],
+          "duration": 363,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Create new repository Authenticated user cannot create repository with no body",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user cannot create repository with no body"
+        },
+        {
+          "ancestorTitles": [
+            "Create new repository"
+          ],
+          "duration": 415,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Create new repository Authenticated user creates a repository from existing name",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user creates a repository from existing name"
+        },
+        {
+          "ancestorTitles": [
+            "Create new repository"
+          ],
+          "duration": 349,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Create new repository Authenticated user creates a repository from existing name",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user creates a repository from existing name"
+        },
+        {
+          "ancestorTitles": [
+            "Manipulation of alerts in the repo"
+          ],
+          "duration": 365,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Manipulation of alerts in the repo Authenticated user creates an alert for his repo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user creates an alert for his repo"
+        },
+        {
+          "ancestorTitles": [
+            "User updates the repository"
+          ],
+          "duration": 825,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "User updates the repository Authenticated user updates a private repository",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user updates a private repository"
+        },
+        {
+          "ancestorTitles": [
+            "User deletes a repository"
+          ],
+          "duration": 496,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "User deletes a repository Authenticated user deletes a repository",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user deletes a repository"
+        },
+        {
+          "ancestorTitles": [
+            "User deletes a repository"
+          ],
+          "duration": 409,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "User deletes a repository Authenticated user deletes a repository not specified",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user deletes a repository not specified"
+        },
+        {
+          "ancestorTitles": [
+            "User deletes a repository"
+          ],
+          "duration": 406,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "User deletes a repository Authenticated user tries to access a deleted repository",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Authenticated user tries to access a deleted repository"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "C:\\Users\\m.celikovic\\Documents\\REST API Testing\\HelloWorldGithubAPI\\repositories.js": {
+      "path": "C:\\Users\\m.celikovic\\Documents\\REST API Testing\\HelloWorldGithubAPI\\repositories.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 30
+          }
+        },
+        "1": {
+          "start": {
+            "line": 2,
+            "column": 17
+          },
+          "end": {
+            "line": 2,
+            "column": 43
+          }
+        },
+        "2": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 86,
+            "column": 1
+          }
+        },
+        "3": {
+          "start": {
+            "line": 6,
+            "column": 30
+          },
+          "end": {
+            "line": 6,
+            "column": 109
+          }
+        },
+        "4": {
+          "start": {
+            "line": 6,
+            "column": 87
+          },
+          "end": {
+            "line": 6,
+            "column": 90
+          }
+        },
+        "5": {
+          "start": {
+            "line": 6,
+            "column": 105
+          },
+          "end": {
+            "line": 6,
+            "column": 108
+          }
+        },
+        "6": {
+          "start": {
+            "line": 7,
+            "column": 38
+          },
+          "end": {
+            "line": 7,
+            "column": 118
+          }
+        },
+        "7": {
+          "start": {
+            "line": 7,
+            "column": 96
+          },
+          "end": {
+            "line": 7,
+            "column": 99
+          }
+        },
+        "8": {
+          "start": {
+            "line": 7,
+            "column": 114
+          },
+          "end": {
+            "line": 7,
+            "column": 117
+          }
+        },
+        "9": {
+          "start": {
+            "line": 8,
+            "column": 45
+          },
+          "end": {
+            "line": 17,
+            "column": 41
+          }
+        },
+        "10": {
+          "start": {
+            "line": 17,
+            "column": 19
+          },
+          "end": {
+            "line": 17,
+            "column": 22
+          }
+        },
+        "11": {
+          "start": {
+            "line": 17,
+            "column": 37
+          },
+          "end": {
+            "line": 17,
+            "column": 40
+          }
+        },
+        "12": {
+          "start": {
+            "line": 20,
+            "column": 32
+          },
+          "end": {
+            "line": 20,
+            "column": 119
+          }
+        },
+        "13": {
+          "start": {
+            "line": 20,
+            "column": 97
+          },
+          "end": {
+            "line": 20,
+            "column": 100
+          }
+        },
+        "14": {
+          "start": {
+            "line": 20,
+            "column": 115
+          },
+          "end": {
+            "line": 20,
+            "column": 118
+          }
+        },
+        "15": {
+          "start": {
+            "line": 22,
+            "column": 25
+          },
+          "end": {
+            "line": 30,
+            "column": 41
+          }
+        },
+        "16": {
+          "start": {
+            "line": 30,
+            "column": 19
+          },
+          "end": {
+            "line": 30,
+            "column": 22
+          }
+        },
+        "17": {
+          "start": {
+            "line": 30,
+            "column": 37
+          },
+          "end": {
+            "line": 30,
+            "column": 40
+          }
+        },
+        "18": {
+          "start": {
+            "line": 31,
+            "column": 34
+          },
+          "end": {
+            "line": 35,
+            "column": 41
+          }
+        },
+        "19": {
+          "start": {
+            "line": 35,
+            "column": 19
+          },
+          "end": {
+            "line": 35,
+            "column": 22
+          }
+        },
+        "20": {
+          "start": {
+            "line": 35,
+            "column": 37
+          },
+          "end": {
+            "line": 35,
+            "column": 40
+          }
+        },
+        "21": {
+          "start": {
+            "line": 36,
+            "column": 31
+          },
+          "end": {
+            "line": 39,
+            "column": 41
+          }
+        },
+        "22": {
+          "start": {
+            "line": 39,
+            "column": 19
+          },
+          "end": {
+            "line": 39,
+            "column": 22
+          }
+        },
+        "23": {
+          "start": {
+            "line": 39,
+            "column": 37
+          },
+          "end": {
+            "line": 39,
+            "column": 40
+          }
+        },
+        "24": {
+          "start": {
+            "line": 41,
+            "column": 38
+          },
+          "end": {
+            "line": 49,
+            "column": 41
+          }
+        },
+        "25": {
+          "start": {
+            "line": 49,
+            "column": 19
+          },
+          "end": {
+            "line": 49,
+            "column": 22
+          }
+        },
+        "26": {
+          "start": {
+            "line": 49,
+            "column": 37
+          },
+          "end": {
+            "line": 49,
+            "column": 40
+          }
+        },
+        "27": {
+          "start": {
+            "line": 50,
+            "column": 33
+          },
+          "end": {
+            "line": 56,
+            "column": 41
+          }
+        },
+        "28": {
+          "start": {
+            "line": 56,
+            "column": 19
+          },
+          "end": {
+            "line": 56,
+            "column": 22
+          }
+        },
+        "29": {
+          "start": {
+            "line": 56,
+            "column": 37
+          },
+          "end": {
+            "line": 56,
+            "column": 40
+          }
+        },
+        "30": {
+          "start": {
+            "line": 57,
+            "column": 30
+          },
+          "end": {
+            "line": 65,
+            "column": 41
+          }
+        },
+        "31": {
+          "start": {
+            "line": 65,
+            "column": 19
+          },
+          "end": {
+            "line": 65,
+            "column": 22
+          }
+        },
+        "32": {
+          "start": {
+            "line": 65,
+            "column": 37
+          },
+          "end": {
+            "line": 65,
+            "column": 40
+          }
+        },
+        "33": {
+          "start": {
+            "line": 67,
+            "column": 22
+          },
+          "end": {
+            "line": 75,
+            "column": 41
+          }
+        },
+        "34": {
+          "start": {
+            "line": 75,
+            "column": 19
+          },
+          "end": {
+            "line": 75,
+            "column": 22
+          }
+        },
+        "35": {
+          "start": {
+            "line": 75,
+            "column": 37
+          },
+          "end": {
+            "line": 75,
+            "column": 40
+          }
+        },
+        "36": {
+          "start": {
+            "line": 76,
+            "column": 22
+          },
+          "end": {
+            "line": 79,
+            "column": 41
+          }
+        },
+        "37": {
+          "start": {
+            "line": 79,
+            "column": 19
+          },
+          "end": {
+            "line": 79,
+            "column": 22
+          }
+        },
+        "38": {
+          "start": {
+            "line": 79,
+            "column": 37
+          },
+          "end": {
+            "line": 79,
+            "column": 40
+          }
+        },
+        "39": {
+          "start": {
+            "line": 80,
+            "column": 37
+          },
+          "end": {
+            "line": 83,
+            "column": 41
+          }
+        },
+        "40": {
+          "start": {
+            "line": 83,
+            "column": 19
+          },
+          "end": {
+            "line": 83,
+            "column": 22
+          }
+        },
+        "41": {
+          "start": {
+            "line": 83,
+            "column": 37
+          },
+          "end": {
+            "line": 83,
+            "column": 40
+          }
+        },
+        "42": {
+          "start": {
+            "line": 85,
+            "column": 39
+          },
+          "end": {
+            "line": 85,
+            "column": 136
+          }
+        },
+        "43": {
+          "start": {
+            "line": 85,
+            "column": 114
+          },
+          "end": {
+            "line": 85,
+            "column": 117
+          }
+        },
+        "44": {
+          "start": {
+            "line": 85,
+            "column": 132
+          },
+          "end": {
+            "line": 85,
+            "column": 135
+          }
+        },
+        "45": {
+          "start": {
+            "line": 87,
+            "column": 0
+          },
+          "end": {
+            "line": 87,
+            "column": 31
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 6,
+              "column": 24
+            },
+            "end": {
+              "line": 6,
+              "column": 25
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 30
+            },
+            "end": {
+              "line": 6,
+              "column": 109
+            }
+          },
+          "line": 6
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 6,
+              "column": 80
+            },
+            "end": {
+              "line": 6,
+              "column": 81
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 87
+            },
+            "end": {
+              "line": 6,
+              "column": 90
+            }
+          },
+          "line": 6
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": {
+            "start": {
+              "line": 6,
+              "column": 98
+            },
+            "end": {
+              "line": 6,
+              "column": 99
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 105
+            },
+            "end": {
+              "line": 6,
+              "column": 108
+            }
+          },
+          "line": 6
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": {
+            "start": {
+              "line": 7,
+              "column": 32
+            },
+            "end": {
+              "line": 7,
+              "column": 33
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 38
+            },
+            "end": {
+              "line": 7,
+              "column": 118
+            }
+          },
+          "line": 7
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": {
+            "start": {
+              "line": 7,
+              "column": 89
+            },
+            "end": {
+              "line": 7,
+              "column": 90
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 96
+            },
+            "end": {
+              "line": 7,
+              "column": 99
+            }
+          },
+          "line": 7
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": {
+            "start": {
+              "line": 7,
+              "column": 107
+            },
+            "end": {
+              "line": 7,
+              "column": 108
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 114
+            },
+            "end": {
+              "line": 7,
+              "column": 117
+            }
+          },
+          "line": 7
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": {
+            "start": {
+              "line": 8,
+              "column": 39
+            },
+            "end": {
+              "line": 8,
+              "column": 40
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 45
+            },
+            "end": {
+              "line": 17,
+              "column": 41
+            }
+          },
+          "line": 8
+        },
+        "7": {
+          "name": "(anonymous_7)",
+          "decl": {
+            "start": {
+              "line": 17,
+              "column": 12
+            },
+            "end": {
+              "line": 17,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 19
+            },
+            "end": {
+              "line": 17,
+              "column": 22
+            }
+          },
+          "line": 17
+        },
+        "8": {
+          "name": "(anonymous_8)",
+          "decl": {
+            "start": {
+              "line": 17,
+              "column": 30
+            },
+            "end": {
+              "line": 17,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 37
+            },
+            "end": {
+              "line": 17,
+              "column": 40
+            }
+          },
+          "line": 17
+        },
+        "9": {
+          "name": "(anonymous_9)",
+          "decl": {
+            "start": {
+              "line": 20,
+              "column": 26
+            },
+            "end": {
+              "line": 20,
+              "column": 27
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 32
+            },
+            "end": {
+              "line": 20,
+              "column": 119
+            }
+          },
+          "line": 20
+        },
+        "10": {
+          "name": "(anonymous_10)",
+          "decl": {
+            "start": {
+              "line": 20,
+              "column": 90
+            },
+            "end": {
+              "line": 20,
+              "column": 91
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 97
+            },
+            "end": {
+              "line": 20,
+              "column": 100
+            }
+          },
+          "line": 20
+        },
+        "11": {
+          "name": "(anonymous_11)",
+          "decl": {
+            "start": {
+              "line": 20,
+              "column": 108
+            },
+            "end": {
+              "line": 20,
+              "column": 109
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 115
+            },
+            "end": {
+              "line": 20,
+              "column": 118
+            }
+          },
+          "line": 20
+        },
+        "12": {
+          "name": "(anonymous_12)",
+          "decl": {
+            "start": {
+              "line": 22,
+              "column": 19
+            },
+            "end": {
+              "line": 22,
+              "column": 20
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 25
+            },
+            "end": {
+              "line": 30,
+              "column": 41
+            }
+          },
+          "line": 22
+        },
+        "13": {
+          "name": "(anonymous_13)",
+          "decl": {
+            "start": {
+              "line": 30,
+              "column": 12
+            },
+            "end": {
+              "line": 30,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 19
+            },
+            "end": {
+              "line": 30,
+              "column": 22
+            }
+          },
+          "line": 30
+        },
+        "14": {
+          "name": "(anonymous_14)",
+          "decl": {
+            "start": {
+              "line": 30,
+              "column": 30
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 37
+            },
+            "end": {
+              "line": 30,
+              "column": 40
+            }
+          },
+          "line": 30
+        },
+        "15": {
+          "name": "(anonymous_15)",
+          "decl": {
+            "start": {
+              "line": 31,
+              "column": 28
+            },
+            "end": {
+              "line": 31,
+              "column": 29
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 34
+            },
+            "end": {
+              "line": 35,
+              "column": 41
+            }
+          },
+          "line": 31
+        },
+        "16": {
+          "name": "(anonymous_16)",
+          "decl": {
+            "start": {
+              "line": 35,
+              "column": 12
+            },
+            "end": {
+              "line": 35,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 19
+            },
+            "end": {
+              "line": 35,
+              "column": 22
+            }
+          },
+          "line": 35
+        },
+        "17": {
+          "name": "(anonymous_17)",
+          "decl": {
+            "start": {
+              "line": 35,
+              "column": 30
+            },
+            "end": {
+              "line": 35,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 37
+            },
+            "end": {
+              "line": 35,
+              "column": 40
+            }
+          },
+          "line": 35
+        },
+        "18": {
+          "name": "(anonymous_18)",
+          "decl": {
+            "start": {
+              "line": 36,
+              "column": 25
+            },
+            "end": {
+              "line": 36,
+              "column": 26
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 31
+            },
+            "end": {
+              "line": 39,
+              "column": 41
+            }
+          },
+          "line": 36
+        },
+        "19": {
+          "name": "(anonymous_19)",
+          "decl": {
+            "start": {
+              "line": 39,
+              "column": 12
+            },
+            "end": {
+              "line": 39,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 19
+            },
+            "end": {
+              "line": 39,
+              "column": 22
+            }
+          },
+          "line": 39
+        },
+        "20": {
+          "name": "(anonymous_20)",
+          "decl": {
+            "start": {
+              "line": 39,
+              "column": 30
+            },
+            "end": {
+              "line": 39,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 37
+            },
+            "end": {
+              "line": 39,
+              "column": 40
+            }
+          },
+          "line": 39
+        },
+        "21": {
+          "name": "(anonymous_21)",
+          "decl": {
+            "start": {
+              "line": 41,
+              "column": 32
+            },
+            "end": {
+              "line": 41,
+              "column": 33
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 38
+            },
+            "end": {
+              "line": 49,
+              "column": 41
+            }
+          },
+          "line": 41
+        },
+        "22": {
+          "name": "(anonymous_22)",
+          "decl": {
+            "start": {
+              "line": 49,
+              "column": 12
+            },
+            "end": {
+              "line": 49,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 19
+            },
+            "end": {
+              "line": 49,
+              "column": 22
+            }
+          },
+          "line": 49
+        },
+        "23": {
+          "name": "(anonymous_23)",
+          "decl": {
+            "start": {
+              "line": 49,
+              "column": 30
+            },
+            "end": {
+              "line": 49,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 37
+            },
+            "end": {
+              "line": 49,
+              "column": 40
+            }
+          },
+          "line": 49
+        },
+        "24": {
+          "name": "(anonymous_24)",
+          "decl": {
+            "start": {
+              "line": 50,
+              "column": 27
+            },
+            "end": {
+              "line": 50,
+              "column": 28
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 50,
+              "column": 33
+            },
+            "end": {
+              "line": 56,
+              "column": 41
+            }
+          },
+          "line": 50
+        },
+        "25": {
+          "name": "(anonymous_25)",
+          "decl": {
+            "start": {
+              "line": 56,
+              "column": 12
+            },
+            "end": {
+              "line": 56,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 56,
+              "column": 19
+            },
+            "end": {
+              "line": 56,
+              "column": 22
+            }
+          },
+          "line": 56
+        },
+        "26": {
+          "name": "(anonymous_26)",
+          "decl": {
+            "start": {
+              "line": 56,
+              "column": 30
+            },
+            "end": {
+              "line": 56,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 56,
+              "column": 37
+            },
+            "end": {
+              "line": 56,
+              "column": 40
+            }
+          },
+          "line": 56
+        },
+        "27": {
+          "name": "(anonymous_27)",
+          "decl": {
+            "start": {
+              "line": 57,
+              "column": 24
+            },
+            "end": {
+              "line": 57,
+              "column": 25
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 57,
+              "column": 30
+            },
+            "end": {
+              "line": 65,
+              "column": 41
+            }
+          },
+          "line": 57
+        },
+        "28": {
+          "name": "(anonymous_28)",
+          "decl": {
+            "start": {
+              "line": 65,
+              "column": 12
+            },
+            "end": {
+              "line": 65,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 65,
+              "column": 19
+            },
+            "end": {
+              "line": 65,
+              "column": 22
+            }
+          },
+          "line": 65
+        },
+        "29": {
+          "name": "(anonymous_29)",
+          "decl": {
+            "start": {
+              "line": 65,
+              "column": 30
+            },
+            "end": {
+              "line": 65,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 65,
+              "column": 37
+            },
+            "end": {
+              "line": 65,
+              "column": 40
+            }
+          },
+          "line": 65
+        },
+        "30": {
+          "name": "(anonymous_30)",
+          "decl": {
+            "start": {
+              "line": 67,
+              "column": 16
+            },
+            "end": {
+              "line": 67,
+              "column": 17
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 67,
+              "column": 22
+            },
+            "end": {
+              "line": 75,
+              "column": 41
+            }
+          },
+          "line": 67
+        },
+        "31": {
+          "name": "(anonymous_31)",
+          "decl": {
+            "start": {
+              "line": 75,
+              "column": 12
+            },
+            "end": {
+              "line": 75,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 75,
+              "column": 19
+            },
+            "end": {
+              "line": 75,
+              "column": 22
+            }
+          },
+          "line": 75
+        },
+        "32": {
+          "name": "(anonymous_32)",
+          "decl": {
+            "start": {
+              "line": 75,
+              "column": 30
+            },
+            "end": {
+              "line": 75,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 75,
+              "column": 37
+            },
+            "end": {
+              "line": 75,
+              "column": 40
+            }
+          },
+          "line": 75
+        },
+        "33": {
+          "name": "(anonymous_33)",
+          "decl": {
+            "start": {
+              "line": 76,
+              "column": 16
+            },
+            "end": {
+              "line": 76,
+              "column": 17
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 76,
+              "column": 22
+            },
+            "end": {
+              "line": 79,
+              "column": 41
+            }
+          },
+          "line": 76
+        },
+        "34": {
+          "name": "(anonymous_34)",
+          "decl": {
+            "start": {
+              "line": 79,
+              "column": 12
+            },
+            "end": {
+              "line": 79,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 79,
+              "column": 19
+            },
+            "end": {
+              "line": 79,
+              "column": 22
+            }
+          },
+          "line": 79
+        },
+        "35": {
+          "name": "(anonymous_35)",
+          "decl": {
+            "start": {
+              "line": 79,
+              "column": 30
+            },
+            "end": {
+              "line": 79,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 79,
+              "column": 37
+            },
+            "end": {
+              "line": 79,
+              "column": 40
+            }
+          },
+          "line": 79
+        },
+        "36": {
+          "name": "(anonymous_36)",
+          "decl": {
+            "start": {
+              "line": 80,
+              "column": 31
+            },
+            "end": {
+              "line": 80,
+              "column": 32
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 80,
+              "column": 37
+            },
+            "end": {
+              "line": 83,
+              "column": 41
+            }
+          },
+          "line": 80
+        },
+        "37": {
+          "name": "(anonymous_37)",
+          "decl": {
+            "start": {
+              "line": 83,
+              "column": 12
+            },
+            "end": {
+              "line": 83,
+              "column": 13
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 83,
+              "column": 19
+            },
+            "end": {
+              "line": 83,
+              "column": 22
+            }
+          },
+          "line": 83
+        },
+        "38": {
+          "name": "(anonymous_38)",
+          "decl": {
+            "start": {
+              "line": 83,
+              "column": 30
+            },
+            "end": {
+              "line": 83,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 83,
+              "column": 37
+            },
+            "end": {
+              "line": 83,
+              "column": 40
+            }
+          },
+          "line": 83
+        },
+        "39": {
+          "name": "(anonymous_39)",
+          "decl": {
+            "start": {
+              "line": 85,
+              "column": 33
+            },
+            "end": {
+              "line": 85,
+              "column": 34
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 85,
+              "column": 39
+            },
+            "end": {
+              "line": 85,
+              "column": 136
+            }
+          },
+          "line": 85
+        },
+        "40": {
+          "name": "(anonymous_40)",
+          "decl": {
+            "start": {
+              "line": 85,
+              "column": 107
+            },
+            "end": {
+              "line": 85,
+              "column": 108
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 85,
+              "column": 114
+            },
+            "end": {
+              "line": 85,
+              "column": 117
+            }
+          },
+          "line": 85
+        },
+        "41": {
+          "name": "(anonymous_41)",
+          "decl": {
+            "start": {
+              "line": 85,
+              "column": 125
+            },
+            "end": {
+              "line": 85,
+              "column": 126
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 85,
+              "column": 132
+            },
+            "end": {
+              "line": 85,
+              "column": 135
+            }
+          },
+          "line": 85
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 1,
+        "10": 0,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 0,
+        "15": 1,
+        "16": 1,
+        "17": 0,
+        "18": 1,
+        "19": 0,
+        "20": 1,
+        "21": 1,
+        "22": 0,
+        "23": 1,
+        "24": 1,
+        "25": 0,
+        "26": 1,
+        "27": 1,
+        "28": 0,
+        "29": 1,
+        "30": 1,
+        "31": 0,
+        "32": 1,
+        "33": 1,
+        "34": 1,
+        "35": 0,
+        "36": 1,
+        "37": 1,
+        "38": 0,
+        "39": 1,
+        "40": 0,
+        "41": 1,
+        "42": 1,
+        "43": 0,
+        "44": 1,
+        "45": 1
+      },
+      "f": {
+        "0": 1,
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 0,
+        "12": 1,
+        "13": 1,
+        "14": 0,
+        "15": 1,
+        "16": 0,
+        "17": 1,
+        "18": 1,
+        "19": 0,
+        "20": 1,
+        "21": 1,
+        "22": 0,
+        "23": 1,
+        "24": 1,
+        "25": 0,
+        "26": 1,
+        "27": 1,
+        "28": 0,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "32": 0,
+        "33": 1,
+        "34": 1,
+        "35": 0,
+        "36": 1,
+        "37": 0,
+        "38": 1,
+        "39": 1,
+        "40": 0,
+        "41": 1
+      },
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "7f93b4ab4e9909a683228ce7855ca71bcb05babb"
+    },
+    "C:\\Users\\m.celikovic\\Documents\\REST API Testing\\HelloWorldGithubAPI\\util\\instance.js": {
+      "path": "C:\\Users\\m.celikovic\\Documents\\REST API Testing\\HelloWorldGithubAPI\\util\\instance.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 30
+          }
+        },
+        "1": {
+          "start": {
+            "line": 2,
+            "column": 17
+          },
+          "end": {
+            "line": 10,
+            "column": 2
+          }
+        },
+        "2": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 12,
+            "column": 26
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "9c80afa457a9cbd0369368f4b7f852947f7d9649"
+    }
+  }
+}

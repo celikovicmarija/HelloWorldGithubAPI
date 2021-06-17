@@ -1,0 +1,21 @@
+{
+    "name": "helloworldgithubapi",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": " jest __test__ --reporters default jest-stare --coverage --detectOpenHandles --runInBand --testTimeout=60000",
+        "test:watch": "jest __test__ --verbose --watchAll"
+    },
+    "author": "Maria",
+    "license": "ISC",
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "jest": "^27.0.4",
+        "jest-serial-runner": "^1.1.0",
+        "jest-stare": "^2.2.2",
+        "jest-tobetype": "^1.2.3",
+        "yarn": "^1.22.10"
+    }
+}
